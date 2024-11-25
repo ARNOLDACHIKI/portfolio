@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- You can include Tailwind CSS here or in your main CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <!-- Updated the "Projects" link to be a button-like style on the anchor tag -->
+                <li><a href="#projects" class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-16 w-64 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+                    Projects
+                </a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/WhatsApp Image 2024-11-25 at 11.38.34 AM.jpeg" alt="Arnold Achiki" style="width:200px; border-radius:50%;">
+            <p>
+                Hello! I'm Arnold Achiki, a passionate Software Engineer specializing in web development, AI, and cloud computing. 
+                I am currently a second-year student at the Multimedia University of Kenya pursuing a Bachelor of Science in Computer Science.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Songa</h3>
+                <p>
+                    A web app that provides accessible routes for individuals with mobility impairments. 
+                    <a href="https://pavadtech.netlify.app/" target="_blank">View Project</a>
+                </p>
+            </div>
+            <div>
+                <h3>Expense Tracker</h3>
+                <p>A Python-based application for tracking personal expenses (still in production).</p>
+            </div>
+            <div>
+                <h3>Dona</h3>
+                <p>
+                    A donation site focused on Africa that provides a platform for people to locally or globally donate to those in need. (still in production)
+                </p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python and Flask</li>
+                <li>React.js</li>
+                <li>Microsoft Azure</li>
+                <li>SQL and Data Analysis</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:achikiarnold@gmail.com">achikiarnold@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/arnold-kiriago-bb2568288/" target="_blank">View Profile</a></p>
+            <p>GitHub: <a href="https://github.com/arnoldachiki" target="_blank">github.com/arnoldachiki</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Arnold Achiki. All rights reserved.</p>
+    </footer>
+</body>
+</html>
